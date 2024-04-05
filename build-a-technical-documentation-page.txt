@@ -1,0 +1,158 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Documentation Page Project</title>
+  </head>
+  <body>
+    <nav id="navbar">
+        <ul>
+          <li><header><h1>Lomo de Salmón con salsa verde y verduras</h1></header></li>
+          <li><a class="nav-link" href="#Ingredientes_para_4_personas">Ingredientes para 4 personas</a></li>
+          <li><a class="nav-link" href="#Ingredientes_para_la_salsa">Ingredientes para la salsa</a></li>
+          <li><a class="nav-link" href="#Elaboración">Elaboración</a></li>
+          <li><a class="nav-link" href="#Paso_1">Paso 1</a></li>
+          <li><a class="nav-link" href="#Paso_2">Paso 2</a></li>
+          <li><a class="nav-link" href="#Paso_3">Paso 3</a></li>
+          <li><a class="nav-link" href="#Paso_4">Paso 4</a></li>
+          <li><a class="nav-link" href="#Paso_5">Paso 5</a></li>
+        </ul>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Ingredientes_para_4_personas">
+        <header><h2>Ingredientes para 4 personas</h2></header>
+        <p>Tiempo de elaboración: 20 minutos</p>
+        <ul>
+          <li>4 lomos de salmón</li>
+          <li>1 calabacin grande</li>
+          <li>Aceite de oliva</li>
+          <li>Sal</li>
+          <li>Pimienta</li>
+          <li>Flores o verduras para decorar</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Ingredientes_para_la_salsa">
+        <header><h2>Ingredientes para la salsa</h2></header>
+        <ul>
+          <li>1 vaso de caldo de pescado</li>
+          <li>2 cucharadas de vino blanco</li>
+          <li>2 ramas de perejil</li>
+          <li>1 cucharada de maicena</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Elaboración">
+        <header><h2>Elaboración</h2></header>
+      </section>
+      <section class="main-section" id="Paso_1">
+        <header><h3>Paso 1</h3></header>
+        <p>Comienza preparando la salsa. Para ello, <code>lava</code> bien las ramitas de perejil, sécalas un poco y ponlas en una cacerola pequeña.</p><p> Echa también el caldo de pescado y calienta la cacerola hasta que hierva durante 4 minutos.</p><p> Cuando esté, tritura con la batidora de brazo.</p>
+      </section>
+      <section class="main-section" id="Paso_2">
+        <header><h3>Paso 2</h3></header>
+        <p>En un vasito, echa la maicena con el vino y mezcla bien. Después, échalo en la cacerola <code>con</code> el caldo y calienta un par de minutos, removiendo constantemente, hasta lograr una salsa espesa. </p><p>Salpimenta a tu gusto y reserva el caldo. </p>
+      </section>
+      <section class="main-section" id="Paso_3">
+        <header><h3>Paso 3</h3></header>
+        <p>En una cacerola, calienta agua con un puñadito de sal y, cuando empiece a hervir, mete los <code>calabacines</code> enteros.</p><p> Cuécelos 3 minutos si son pequeños o unos minutos más si utilizas uno grande. Escúrrelos y resérvalos.</p>
+      </section>
+      <section class="main-section" id="Paso_4">
+        <header><h3>Paso 4</h3></header>
+        <p>Salpimenta los lomos de salmón y cuécelos en una plancha o sartén antiadherente bien caliente, <code>untada</code> con aceite, unos 2 minutos por cada lado..</p>
+      </section>
+      <section class="main-section" id="Paso_5">
+        <header><h3>Paso 5</h3></header>
+        <p>Pon los lomos de pescado en los platos y distribuye por encima los calabacines cortados en <code>rodajas</code> finas y unas flores comestibles.</p><p> Vierte alrededor la salsa caliente y sirve.</p>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  margin: 20px auto;
+  width: 90%;
+  min-width: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+  border-right: 2px solid black;
+}
+
+#navbar ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbar li:first-of-type{
+  padding-bottom: 0px;
+  border-bottom: 1px solid grey;
+  padding-right: 2px;
+}
+
+#navbar li{
+  width: 100%;
+  padding-bottom: 20px;
+  margin: 10px auto;
+  border-bottom: 1px solid grey;
+  padding-left: 20px;
+}
+
+.nav-link{
+  color: black;
+  text-decoration: none;
+}
+
+#main-doc{
+  position: absolute;
+  margin-left: 200px;
+}
+
+code{
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+
+p{
+  margin-left:15px;
+}
+
+@media(max-width: 600px){
+  #navbar{
+    position: absolute;
+    top: 0;
+    max-height: 200px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+
+  #main-doc{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 500px;
+  }
+}
+
+** end of undefined **
+

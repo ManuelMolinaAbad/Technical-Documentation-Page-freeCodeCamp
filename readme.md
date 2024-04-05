@@ -1,0 +1,1 @@
+This project is the third project to do in order to get the "Responsive Web Design" Certification by freeCodeCamp 
