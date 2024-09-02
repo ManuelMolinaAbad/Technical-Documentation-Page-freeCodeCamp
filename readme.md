@@ -1,7 +1,7 @@
 # Build a Technical Documentation Page
 
 ## Description
-This activity is focused on creating a Technical Documentatio Page project from scratch using HTML and a bit more complex CSS styling. It is the third exercise to do be done in order to get the "Responsive Web Design" Certification by freeCodeCamp.org.
+This activity is focused on creating a Technical Documentation Page project from scratch using HTML and a bit more complex CSS styling. It is the third exercise to do be done in order to get the "Responsive Web Design" Certification by freeCodeCamp.org.
 
 ## Requirements to be done in order to pass the automated tests
 <details>
